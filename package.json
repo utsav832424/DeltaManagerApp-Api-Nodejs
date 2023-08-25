@@ -1,0 +1,30 @@
+{
+  "name": "profitsharing_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "deltaManager.js",
+  "scripts": {
+    "start": "nodemon deltaManager.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.20.0",
+    "dotenv": "^16.0.1",
+    "excel4node": "^1.7.2",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "mime": "^3.0.0",
+    "moment": "^2.29.4",
+    "multer": "^1.4.5-lts.1",
+    "mysql": "^2.18.1",
+    "pdfmake": "^0.2.5",
+    "pm2": "^5.2.0",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
